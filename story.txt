@@ -1,0 +1,3 @@
+This is the basic version of my command 
+and for making the file we use touch command like
+touch filename.txt then press enter.

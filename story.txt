@@ -1,3 +1,36 @@
 This is the basic version of my command 
 and for making the file we use touch command like
 touch filename.txt then press enter.
+1. when we want to change the directory we use cd command e
+exp- cd folder name
+2. when we want to make a file in any particular folder so firstly we use 
+cd folder name  then
+mkdir and folder name by this we can make folder in that folder
+3. if we want to make any txt file so we use touch command
+exp touch filename.txt
+4. By using git init this command is initialize the git but no more file will be visible to the user 
+5.  By ls -a command we can see all the files which is presented in the folder
+6. If we want to see the status we use git status command but using this command no file will untracked
+7. If we use git add filename.txt then we can commit the files
+8. and if we use git commit -m "write message" for using this command we have to tell the 
+git bash who are you then we have to tell the user name or email id if you have not mentioned then 
+we will face some error then we have to use the some command like 
+git config user.email "write your email" then
+git config user.name "write your name"
+then we can use the git commit -m "write your message" then it will work and the message we 
+have written then it will appear on the screen
+9. git log command we use to see who is the author and when the file is created
+10. if we have change the text in the text file then we use some command like
+git diff filename.txt 
+this command will show the previous text and the new text
+11. git checkout filename.txt this command is used for the rolling back the text the new text will
+disappear and the previous text will save in the file.
+12 for uploading your folder and file to the GitHub website we need to stablish connection then we 
+have write some code that is 
+firstly we should have an account on the GitHub
+then we type come command firstly go to the folder then type
+git remote and origin paste the https link like 
+git remote add origin https://github.com/AdvSumit/First.git
+for the above code we have to make a repository in GitHub and we will get our http link 
+after that write some more code like by that code our folder and will be uploaded on the GitHub 
+git push -u origin master and press enter. after this command our file will be uploaded on the GitHub website.

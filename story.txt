@@ -34,3 +34,8 @@ git remote add origin https://github.com/AdvSumit/First.git
 for the above code we have to make a repository in GitHub and we will get our http link 
 after that write some more code like by that code our folder and will be uploaded on the GitHub 
 git push -u origin master and press enter. after this command our file will be uploaded on the GitHub website.
+13. if we want to clone nay repository then we find the file which we want to clone like i want to copy the aos then we find aos on github then go the 
+file click on the code and copy the addres and we will write some commans like 
+git clone and paste the url of the file like
+git clone https://github.com/michalsnik/aos.git 
+and all the fill will copy in your folder 
